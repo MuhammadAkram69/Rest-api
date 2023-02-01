@@ -1,0 +1,9 @@
+{
+
+"env":{
+  
+    "MONGO.ATLAS": "Node-shop"
+    
+}
+
+}
