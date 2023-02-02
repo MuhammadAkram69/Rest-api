@@ -42,11 +42,13 @@ app.use((req,res,next)=>{
 const productRoutes = require('./Api/routes/products');
 const orderRoutes = require('./Api/routes/orders');
 const userRoutes = require('./Api/routes/users');
+const blogRoutes = require('./Api/routes/Blogs');
 
 //Routes which will handle requests
 app.use('/products',productRoutes);
 app.use('/orders',orderRoutes);
 app.use('/users',userRoutes);
+app.use('/blogs',blogRoutes);
 
 //Error Handling
 
